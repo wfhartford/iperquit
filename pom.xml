@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ca.cutterslade.iperquit</groupId>
+  <artifactId>iperquit</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>iperquit</name>
+  <url>http://code.google.com/p/iperquit/</url>
+  <modules>
+    <module>iperquit-parent</module>
+    <module>iperquit-common</module>
+    <module>iperquit-tests</module>
+    <module>iperquit-client-lib</module>
+    <module>iperquit-client</module>
+    <module>iperquit-server-lib</module>
+    <module>iperquit-server</module>
+    <module>iperquit-server-web</module>
+    <module>iperquit-web</module>
+  </modules>
+  <issueManagement>
+    <system>code.google.com</system>
+    <url>http://code.google.com/p/iperquit/issues</url>
+  </issueManagement>
+  <inceptionYear>2010</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:svn:http://iperquit.googlecode.com/svn/trunk/</connection>
+    <developerConnection>scm:svn:https://iperquit.googlecode.com/svn/trunk/</developerConnection>
+    <url>http://code.google.com/p/iperquit/source/browse</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>wfhartford</id>
+      <name>Wesley Hartford</name>
+      <email>iperquit@cutterslade.ca</email>
+      <roles>
+        <role>owner</role>
+        <role>developer</role>
+      </roles>
+      <timezone>-8</timezone>
+    </developer>
+  </developers>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+</project>

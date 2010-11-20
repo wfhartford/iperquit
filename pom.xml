@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>ca.cutterslade.iperquit</groupId>
@@ -48,8 +49,8 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <iperquit-common.version>1.0-SNAPSHOT</iperquit-common.version>
-	<junit.version>4.8.2</junit.version>
-	<guava.version>r07</guava.version>
+    <junit.version>4.8.2</junit.version>
+    <guava.version>r07</guava.version>
   </properties>
   <build>
     <plugins>
